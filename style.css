@@ -244,6 +244,57 @@ a {
 
 /* Featured style */
 
+.mg-3 {
+  margin-bottom: 4rem;
+}
+
+.text-dark {
+  color: var(--dark-color);
+}
+
+.feature-section {
+  width: 100%;
+}
+
+#feature-wrapper {
+  max-width: 90%;
+  margin: 4rem auto;
+}
+
+.speaker-item img {
+  width: 100px;
+}
+
+.speaker-list {
+  margin: 0 auto;
+}
+
+.speaker-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.speaker-item h4 {
+  color: var(--dark-color);
+}
+
+.speaker-item .colored-text {
+  color: var(--primary-color);
+}
+
+.speaker-item p {
+  color: var(--dark-color);
+}
+
+.speaker-item hr {
+  width: 40px;
+  background-color: var(--dark-color);
+  margin: 0.5rem 0;
+}
+
 /* Media query for mobile */
 @media (max-width: 768px) {
   .nav-desktop {

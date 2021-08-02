@@ -2,12 +2,12 @@
 
 /* Global style */
 @font-face {
-  font-family: cocogoose;
-  src: url('fonts/COCOGOOSE/Cocogoose_trial.ttf');
+  font-family: Cocogoose;
+  src: url('Cocogoose_trial.ttf');
 }
 
 body {
-  font-family: 'Lato', cocogoose, sans-serif;
+  font-family: 'Lato', Cocogoose, sans-serif;
   line-height: 1.5;
 }
 
@@ -120,12 +120,13 @@ a {
 
 .small-paragraph {
   color: var(--primary-color);
-  font-size: 20px;
+  font-size: 25px;
+  font-family: 'lato', sans-serif;
 }
 
 .bg-heading {
   color: var(--primary-color);
-  font-family: cocogoose, sans-serif;
+  font-family: Cocogoose, sans-serif;
   font-size: 45px;
   font-weight: 900;
   line-height: 1.2;
@@ -138,12 +139,19 @@ a {
   width: 100%;
   border: 2px solid var(--white-color);
   padding: 20px;
+  color: var(--dark-color);
 }
 
 .bg-paragraph {
+  color: var(--dark-color);
+  font-family: Cocogoose, sans-serif;
   font-size: 40px;
-  font-weight: 900;
+  font-weight: 500;
   line-height: 1.2;
+}
+
+.lead-md {
+  color: var(--dark-color);
 }
 
 /* Media query for mobile */

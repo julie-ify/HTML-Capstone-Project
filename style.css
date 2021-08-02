@@ -295,6 +295,77 @@ a {
   margin: 0.5rem 0;
 }
 
+/* Partner style */
+.partnership {
+  background-color: var(--dark-color);
+  width: 100%;
+  margin: 3rem 0;
+}
+
+.partner-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  padding: 1rem 0;
+  margin: 2rem 0;
+}
+
+.partners {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.partner-list {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.list-1 a {
+  font-size: 40px;
+  background: -webkit-linear-gradient(right, var(--light-color), #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Cocogoose, sans-serif;
+}
+
+.list-2 a {
+  font-size: 40px;
+  background: -webkit-linear-gradient(var(--light-color), #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Cocogoose, sans-serif;
+}
+
+.list-3 a {
+  font-size: 40px;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(left, var(--light-color), #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Cocogoose, sans-serif;
+}
+
+.list-4 a {
+  font-size: 25px;
+  background: -webkit-linear-gradient(var(--light-color), #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Cocogoose, sans-serif;
+}
+
+.list-5 a {
+  font-size: 25px;
+  background: -webkit-linear-gradient(var(--light-color), #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Cocogoose, sans-serif;
+}
+
 /* Media query for mobile */
 @media (max-width: 768px) {
   .nav-desktop {

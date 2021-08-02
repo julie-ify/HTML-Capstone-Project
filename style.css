@@ -1,6 +1,134 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+/* Global style */
 @font-face {
   font-family: cocogoose;
   src: url('fonts/COCOGOOSE/Cocogoose_trial.ttf');
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+:root {
+  --primary-color: #ec5242;
+  --dark-color: #272a31;
+  --light-color: #d3d3d3;
+  --white-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header style */
+
+.header-section {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url(images/web-bg-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-section a {
+  color: var(--dark-color);
+}
+
+.header-wrapper {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  height: 50px;
+  background-color: var(--white-color);
+}
+
+.nav-desktop {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.nav-item {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.hamburger {
+  z-index: 5;
+  position: absolute;
+  left: 30px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.menu-line {
+  height: 4px;
+  width: 35px;
+  margin-bottom: 5px;
+  background-color: var(--dark-color);
+}
+
+/* Header content */
+.sub-header {
+  width: 90%;
+  margin: 5rem auto;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+}
+
+/* Media query for mobile */
+@media (max-width: 768px) {
+  .nav-desktop {
+    display: none;
+  }
+
+  .navbar {
+    background-color: transparent;
+  }
+}
+
+/* Media query for desktop */
+@media (min-width: 769px) {
+  .hamburger {
+    display: none;
+  }
 }

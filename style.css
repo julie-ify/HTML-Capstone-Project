@@ -127,6 +127,7 @@ a {
   max-width: 800px;
   margin: 0 auto;
 }
+
 .small-paragraph {
   color: var(--primary-color);
   font-size: 25px;
@@ -357,7 +358,7 @@ a {
   background: -webkit-linear-gradient(var(--light-color), #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: Cocogoose, sans-serif;
+  font-family: sans-serif;
 }
 
 .list-3 a {
@@ -389,6 +390,7 @@ a {
 .about-logo {
   color: var(--dark-color);
   width: 100%;
+  margin: 4rem 0;
 }
 
 .about-logo-wrapper {
@@ -402,6 +404,57 @@ a {
   margin-top: 2rem;
   border: 1px solid var(--light-color);
   padding: 2rem;
+}
+
+.about-line {
+  width: 100%;
+  height: 1px;
+  background-color: var(--light-color);
+}
+
+.past-contents {
+  position: relative;
+  font-family: Cocogoose, sans-serif;
+  margin-top: 2rem;
+  border: 1px solid var(--light-color);
+  margin-bottom: 3rem;
+  height: 200px;
+}
+
+.past-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  color: var(--light-color);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bg-img-1 {
+  background-image: url('images/img9.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-img-2 {
+  background-image: url('images/img10.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-img-3 {
+  background-image: url('images/img11.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* Footer style */

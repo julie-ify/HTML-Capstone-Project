@@ -16,7 +16,7 @@ This is a two page website. The home page has the main program section where the
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://julie-ify.github.io/Capstone-1-Project/)
 
 ## Getting Started
 
@@ -36,7 +36,7 @@ To get a local copy up and running follow these simple steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/julie-ify/Capstone-1-Project/issues).
 
 ## Show your support
 

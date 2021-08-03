@@ -104,7 +104,7 @@ a {
 
 /* Side menu */
 #side-menu {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: flex-end;
   row-gap: 5rem;
@@ -117,14 +117,14 @@ a {
   background-color: rgba(255, 255, 255, 0.99);
 }
 
-.close {
+#close {
   font-size: 50px;
   margin-right: 2rem;
   cursor: pointer;
   color: var(--dark-color);
 }
 
-.close:hover {
+#close:hover {
   color: var(--light-color);
 }
 

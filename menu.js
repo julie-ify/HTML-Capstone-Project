@@ -22,3 +22,7 @@ function getMenu() {
 
 openMenu.addEventListener('click', openSideMenu);
 closeMenu.addEventListener('click', closeSideMenu);
+
+if (getMenu === 0) {
+  getMenu();
+}

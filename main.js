@@ -59,9 +59,11 @@ function createSpeaker() {
     img.setAttribute('src', speakerArr[i].img);
     const name = document.createElement('h4');
     name.textContent = speakerArr[i].name;
+    const italics = document.createElement('i');
+    italics.textContent = speakerArr[i].title;
     const title = document.createElement('p');
     title.classList.add('colored-text');
-    title.textContent = speakerArr[i].title;
+    title.appendChild(italics);
     const description = document.createElement('p');
     description.textContent = speakerArr[i].description;
     const div1 = document.createElement('div');

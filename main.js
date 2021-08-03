@@ -50,7 +50,7 @@ const speaker6 = new Speakers(
 );
 
 const speakerArr = [speaker1, speaker2, speaker3, speaker4, speaker5, speaker6];
-// console.log(speakerArr);
+
 function createSpeaker() {
   for (let i = 0; i < speakerArr.length; i += 1) {
     const list = document.createElement('li');

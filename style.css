@@ -85,6 +85,10 @@ a {
   color: var(--dark-color);
 }
 
+.side-menu-list a {
+  font-size: 40px;
+}
+
 .header-section .current a {
   color: var(--primary-color);
 }
@@ -202,10 +206,6 @@ a {
 
 .side-menu-list a:hover {
   color: var(--primary-color);
-}
-
-.side-menu-list a {
-  font-size: 40px;
 }
 
 /* Header content */

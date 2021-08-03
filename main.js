@@ -46,7 +46,7 @@ const speaker6 = new Speakers(
   'images/speaker-6.png',
   'Julie May',
   'Professional Full stack Software Developer',
-  'has been a developer for 7 years and has been invited to speak on conferences all over the world. He has also developed and built thousands of websites for busines oweners',
+  'has been a developer for 7 years and has been invited to speak on conferences all over the world.',
 );
 
 const speakerArr = [speaker1, speaker2, speaker3, speaker4, speaker5, speaker6];

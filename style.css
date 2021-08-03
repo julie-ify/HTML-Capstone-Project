@@ -9,6 +9,7 @@
 body {
   font-family: 'Lato', Cocogoose, sans-serif;
   line-height: 1.5;
+  position: relative;
 }
 
 :root {
@@ -99,6 +100,48 @@ a {
   width: 35px;
   margin-bottom: 5px;
   background-color: var(--dark-color);
+}
+
+/* Side menu */
+#side-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  row-gap: 5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 20;
+  background-color: rgba(255, 255, 255, 0.99);
+}
+
+.close {
+  font-size: 50px;
+  margin-right: 2rem;
+  cursor: pointer;
+  color: var(--dark-color);
+}
+
+.close:hover {
+  color: var(--light-color);
+}
+
+.side-menu-list {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 40px;
+  top: 200px;
+  font-size: 30px;
+  margin-right: 2rem;
+  cursor: pointer;
+  color: var(--dark-color);
+}
+
+.side-menu-list a:hover {
+  color: var(--primary-color);
 }
 
 /* Header content */

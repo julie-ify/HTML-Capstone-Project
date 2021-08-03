@@ -15,38 +15,38 @@ container.appendChild(speakerList);
 const speaker1 = new Speakers(
   'images/speaker-1.png',
   'Quincy Ememandu',
-  'hello my name is ebere nad i m here to help ypu',
-  'hello my name is ebere nad i m here to help ypuhello my name is ebere nad i m here to help ypu',
+  'Proffesional Internet Marketer and Digital marketer',
+  'Quincy has been in digital market industry for 10 years and has been invited to speak on conferences all over the world.',
 );
 const speaker2 = new Speakers(
   'images/speaker-2.png',
-  'Quincy Ememandu',
-  'hello my name is ebere nad i m here to help ypu',
-  'hello my name is ebere nad i m here to help ypuhello my name is ebere nad i m here to help ypu',
+  'Teddy Livingstone',
+  'Professional Ruby on rail developer',
+  'Teddy has been in software industry for 7 years and has been invited to speak on conferences all over the world.',
 );
 const speaker3 = new Speakers(
   'images/speaker-3.png',
-  'Quincy Ememandu',
-  'hello my name is ebere nad i m here to help ypu',
-  'hello my name is ebere nad i m here to help ypuhello my name is ebere nad i m here to help ypu',
+  'Freedom Dozie',
+  'Professional Business manager and retired software developer',
+  'Freedom has been in software industry for 7 years and has been invited to speak on conferences all over the world.',
 );
 const speaker4 = new Speakers(
   'images/speaker-4.png',
-  'Quincy Ememandu',
-  'hello my name is ebere nad i m here to help ypu',
-  'hello my name is ebere nad i m here to help ypuhello my name is ebere nad i m here to help ypu',
+  'Emily Suarez',
+  'Professional Community Manager',
+  'Emily has been a community manager for 7 years and has been invited to speak on conferences all over the world.',
 );
 const speaker5 = new Speakers(
   'images/speaker-5.png',
-  'Quincy Ememandu',
-  'hello my name is ebere nad i m here to help ypu',
-  'hello my name is ebere nad i m here to help ypuhello my name is ebere nad i m here to help ypu',
+  'Mary Ruben',
+  'Professional JavaScript and React developer',
+  'has been a developer for 7 years and has been invited to speak on conferences all over the world.',
 );
 const speaker6 = new Speakers(
   'images/speaker-6.png',
-  'Quincy Ememandu',
-  'hello my name is ebere nad i m here to help ypu',
-  'hello my name is ebere nad i m here to help ypuhello my name is ebere nad i m here to help ypu',
+  'Julie May',
+  'Professional Full stack Software Developer',
+  'has been a developer for 7 years and has been invited to speak on conferences all over the world. He has also developed and built thousands of websites for busines oweners',
 );
 
 const speakerArr = [speaker1, speaker2, speaker3, speaker4, speaker5, speaker6];

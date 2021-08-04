@@ -39,7 +39,7 @@ function createForm() {
   form.style.flexDirection = 'column';
   form.style.gap = '1rem';
   form.style.padding = '0 1rem';
-  form.style.width = '400px';
+  form.style.maxWidth = '350px';
   form.style.margin = '100px auto';
   form.style.backgroundColor = '#888';
   form.style.height = '60%';

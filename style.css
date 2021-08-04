@@ -29,10 +29,6 @@ ul {
   list-style: none;
 }
 
-#arrow {
-  transition: 500ms;
-}
-
 /* links */
 
 a {
@@ -368,12 +364,14 @@ a {
 }
 
 .btn {
-  padding: 20px;
+  padding: 20px 40px;
   text-align: center;
   background-color: var(--primary-color);
   border: none;
   color: var(--white-color);
   font-family: Cocogoose, sans-serif;
+  cursor: pointer;
+  border-radius: 4px;
 }
 
 .btn:hover {

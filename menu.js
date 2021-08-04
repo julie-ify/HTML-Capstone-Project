@@ -36,7 +36,7 @@ arrowIcon.style.alignItems = 'center';
 arrowIcon.style.justifyContent = 'center';
 arrow.style.position = 'fixed';
 arrow.style.bottom = '1rem';
-arrow.style.right = '1rem';
+arrow.style.right = '10px';
 arrow.style.borderRadius = '50%';
 arrow.style.color = '#ec5242';
 arrow.style.padding = '5px 15px';
@@ -44,7 +44,7 @@ arrow.style.border = '2px solid #ec5242';
 arrow.style.width = '1px';
 arrow.style.cursor = 'pointer';
 arrow.style.display = 'none';
-arrow.style.transition = '300ms';
+arrow.style.zIndex = '20';
 
 function getArrow() {
   if (

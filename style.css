@@ -29,6 +29,10 @@ ul {
   list-style: none;
 }
 
+#arrow {
+  transition: 500ms;
+}
+
 /* links */
 
 a {

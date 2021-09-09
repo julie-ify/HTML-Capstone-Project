@@ -464,8 +464,6 @@ a {
 }
 
 .see-less {
-  /* display: flex; */
-  /* flex-direction: column; */
   width: 100%;
   margin-bottom: 3rem;
   padding: 1.5rem 0;
@@ -622,14 +620,14 @@ a {
 }
 
 /* Media query for mobile */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .nav-desktop {
     display: none;
   }
 }
 
 /* Media query for desktop */
-@media (min-width: 769px) {
+@media (min-width: 900px) {
   .hamburger {
     display: none;
   }
@@ -668,5 +666,9 @@ a {
 
   .past-grid {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .add-more {
+    display: none;
   }
 }

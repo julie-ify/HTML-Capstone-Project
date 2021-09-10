@@ -27,6 +27,16 @@ if (getMenu === 0) {
   getMenu();
 }
 
+// Menu
+
+const navLIst = document.querySelectorAll('.nav-list-item');
+const navLIstArr = Array.from(navLIst);
+navLIstArr.forEach((list) => {
+  list.addEventListener('click', () => {
+    Menu.style.display = 'none';
+  });
+});
+
 // Arrow button
 
 const arrow = document.getElementById('arrow');
@@ -48,7 +58,9 @@ arrow.style.zIndex = '20';
 
 function getArrow() {
   if (
-    document.body.scrollTop >= 100 || document.documentElement.scrollTop >= 100) {
+    document.body.scrollTop >= 100
+    || document.documentElement.scrollTop >= 100
+  ) {
     arrow.style.display = 'block';
   } else arrow.style.display = 'none';
 }

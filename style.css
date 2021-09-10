@@ -17,6 +17,7 @@ body {
   --dark-color: #272a31;
   --light-color: #d3d3d3;
   --white-color: #fff;
+  --black-color: #000;
 }
 
 * {
@@ -81,12 +82,21 @@ a {
   font-family: Cocogoose, sans-serif;
 }
 
+.lead-md a {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
 .footer-list a {
-  color: var(--dark-color);
+  color: var(--primary-color);
 }
 
 .side-menu-list a {
   font-size: 40px;
+}
+
+.footer-list a:hover {
+  color: var(--light-color);
 }
 
 .header-section .current a {
@@ -98,14 +108,10 @@ a {
 .header-section {
   height: 100%;
   width: 100%;
-  background-image: url(images/web-bg-img.jpg);
+  background-image: url(images/web-bg1-img.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.header-section a:hover {
-  color: var(--primary-color);
 }
 
 .header-wrapper {
@@ -113,7 +119,7 @@ a {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   display: flex;
   flex-direction: column;
 }
@@ -140,6 +146,11 @@ a {
   display: flex;
   gap: 1rem;
   justify-content: flex-end;
+}
+
+.nav-list-item {
+  border-bottom: 1px solid var(--primary-color);
+  padding-right: 1rem;
 }
 
 .hamburger {
@@ -237,14 +248,14 @@ a {
 .small-paragraph {
   margin-top: 2rem;
   color: var(--primary-color);
-  font-size: 25px;
+  font-size: 30px;
   font-family: 'lato', sans-serif;
 }
 
 .bg-heading {
   color: var(--primary-color);
   font-family: Cocogoose, sans-serif;
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 900;
   line-height: 1.2;
   background: -webkit-linear-gradient(var(--primary-color), #c01e0c);
@@ -256,16 +267,19 @@ a {
   width: 95%;
   border: 2px solid var(--white-color);
   padding: 20px;
-  color: var(--dark-color);
+  color: var(--light-color);
 }
 
 .lead-light {
-  background-color: var(--white-color);
   border: 1px solid var(--light-color);
 }
 
+.lead-lg {
+  font-size: 20px;
+}
+
 .bg-paragraph {
-  color: var(--dark-color);
+  color: var(--light-color);
   font-family: Cocogoose, sans-serif;
   font-size: 35px;
   font-weight: 500;
@@ -274,12 +288,7 @@ a {
 }
 
 .lead-md {
-  color: var(--dark-color);
-}
-
-.link {
-  color: var(--primary-color);
-  text-decoration: underline;
+  color: var(--light-color);
 }
 
 /* Program section */
@@ -389,12 +398,12 @@ a {
 }
 
 .text-dark {
-  color: var(--dark-color);
+  color: var(--light-color);
 }
 
 .feature-section {
   width: 100%;
-  background-color: #ddd;
+  background-color: var(--dark-color);
 }
 
 .feature-section .md-heading,
@@ -430,7 +439,7 @@ a {
 
 .speaker-item h4 {
   font-family: Cocosgoose, sans-serif;
-  color: var(--dark-color);
+  color: var(--light-color);
   font-size: 15px;
 }
 
@@ -439,7 +448,7 @@ a {
 }
 
 .speaker-item p {
-  color: var(--dark-color);
+  color: var(--light-color);
 }
 
 .speaker-item hr {
@@ -449,6 +458,7 @@ a {
 }
 
 .add-more {
+  color: var(--light-color);
   width: 100%;
   margin-bottom: 3rem;
   padding: 1.5rem 0;
@@ -459,7 +469,6 @@ a {
 }
 
 .add-more:hover {
-  color: #f1f1f1;
   background-color: var(--primary-color);
 }
 
@@ -471,10 +480,10 @@ a {
   background-color: transparent;
   border: 1px solid var(--primary-color);
   cursor: pointer;
+  color: var(--light-color);
 }
 
 .see-less:hover {
-  color: #f1f1f1;
   background-color: var(--primary-color);
 }
 
@@ -484,7 +493,7 @@ a {
 
 /* Partner style */
 .partnership {
-  background-color: var(--dark-color);
+  background-color: var(--black-color);
   width: 100%;
 }
 
@@ -512,9 +521,10 @@ a {
 
 /* About style */
 .about-logo {
-  color: var(--dark-color);
+  background-color: var(--dark-color);
+  color: var(--light-color);
   width: 100%;
-  margin: 4rem 0;
+  padding: 4rem 0;
 }
 
 .about-logo-wrapper {
@@ -600,11 +610,11 @@ a {
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: #ddd;
+  background-color: var(--dark-color);
 }
 
 .main-footer {
-  color: var(--dark-color);
+  color: var(--light-color);
   max-width: 90%;
   margin: 4rem auto 0;
   text-align: center;
@@ -636,6 +646,7 @@ a {
     grid-template-columns: repeat(5, 1fr);
     color: var(--light-color);
     margin: 3rem auto;
+    height: 300px;
   }
 
   .program-item {

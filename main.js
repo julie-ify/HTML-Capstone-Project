@@ -64,7 +64,38 @@ const speaker6 = new Speakers(
 
 const speakerArr = [speaker1, speaker2, speaker3, speaker4, speaker5, speaker6];
 
+const fullSpeaker = () => {
+  speakerList.innerHTML = '';
+  for (let i = 0; i < speakerArr.length; i += 1) {
+    const list = document.createElement('li');
+    list.classList.add('speaker-item');
+    const img = document.createElement('img');
+    img.setAttribute('src', speakerArr[i].img);
+    const name = document.createElement('h4');
+    name.textContent = speakerArr[i].name;
+    const italics = document.createElement('i');
+    italics.textContent = speakerArr[i].title;
+    const title = document.createElement('p');
+    title.classList.add('colored-text');
+    title.appendChild(italics);
+    const description = document.createElement('p');
+    description.textContent = speakerArr[i].description;
+    const div1 = document.createElement('div');
+    const hr = document.createElement('hr');
+    title.appendChild(hr);
+    const div2 = document.createElement('div');
+    div1.appendChild(img);
+    div2.appendChild(name);
+    div2.appendChild(title);
+    div2.appendChild(description);
+    list.appendChild(div1);
+    list.appendChild(div2);
+    speakerList.appendChild(list);
+  }
+};
+
 const renderSpeaker = () => {
+  speakerList.innerHTML = '';
   const firstHalfSpeaker = speakerArr.slice(0, 3);
   for (let i = 0; i < firstHalfSpeaker.length; i += 1) {
     const list = document.createElement('li');
@@ -141,3 +172,20 @@ window.addEventListener('load', () => {
   renderSpeaker();
   renderRestSpeaker();
 });
+
+
+const smallDevice = window.matchMedia("(min-width: 900px)");
+
+smallDevice.addListener(handleDeviceChange);
+
+function handleDeviceChange(e) {
+  if (e.matches) {
+    fullSpeaker()
+  }
+  else {
+    renderSpeaker()
+  }
+}
+
+// Run it initially
+handleDeviceChange(smallDevice);

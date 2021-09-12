@@ -207,15 +207,20 @@ a {
   flex-direction: column;
   position: absolute;
   left: 40px;
-  top: 200px;
-  font-size: 30px;
+  top: 100px;
   margin-right: 2rem;
   cursor: pointer;
   color: var(--dark-color);
+  margin-bottom: 2rem;
 }
 
 .side-menu-list a:hover {
   color: var(--primary-color);
+}
+
+.side-menu-list a{
+  color: #555;
+  font-size: 25px;
 }
 
 /* Header content */

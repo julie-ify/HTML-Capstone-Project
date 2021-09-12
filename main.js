@@ -96,6 +96,8 @@ window.addEventListener('load', () => {
     }
   };
 
+  fullSpeaker();
+
   const renderSpeaker = () => {
     speakerList.innerHTML = '';
     const firstHalfSpeaker = speakerArr.slice(0, 3);

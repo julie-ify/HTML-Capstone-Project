@@ -16,14 +16,14 @@ This is a two page website. The home page has the main program section where the
 
 ## Live Demo
 
-[Live Demo Link](https://julie-ify.github.io/Capstone-1-Project/)
+[Live Demo Link](https://julie-ify.github.io/HTML-Capstone-Project/)
 
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
 
-- You can clone this repo by typing `git clone git@github.com:julie-ify/Capstone-1-Project.git` on your terminal
-- Type `cd Capstone-1-Project` to access the project on the terminal
+- You can clone this repo by typing `git clone git@github.com:julie-ify/HTML-Capstone-Project.git` on your terminal
+- Type `cd HTML-Capstone-Project` to access the project on the terminal
 
 ## Authors
 
@@ -36,7 +36,7 @@ To get a local copy up and running follow these simple steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/julie-ify/Capstone-1-Project/issues).
+Feel free to check the [issues page](https://github.com/julie-ify/HTML-Capstone-Project/issues).
 
 ## Show your support
 

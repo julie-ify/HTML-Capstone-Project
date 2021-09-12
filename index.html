@@ -11,6 +11,7 @@
       integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -55,13 +56,18 @@
       <section id="side-menu">
         <span id="close">&times;</span>
         <ul class="nav-item side-menu-list">
-          <li class="nav-list current"><a href="index.html">Home</a></li>
-          <li class="nav-list"><a href="about.html">About</a></li>
+          <li class="nav-list-item current"><a href="index.html">Home</a></li>
+          <li class="nav-list-item"><a href="about.html">About</a></li>
+          <li class="nav-list-item"><a href="#program">Program</a></li>
+          <li class="nav-list-item"><a href="#featured">Featured Speakers</a></li>
+          <li class="nav-list-item"><a href="#partnership">Partnership</a></li>
+          <li class="nav-list-item"><a href="#footer">Footer</a></li>
         </ul>
       </section>
     </header>
-    <main>
-      <section class="program">
+    <main id="main">
+      <div id="arrow"><i id="down" class="fas fa-arrow-up"></i></div>
+      <section class="program" id="program">
         <div class="program-wrapper">
           <div class="program-heading">
             <h2 class="md-heading">Main Program</h2>
@@ -110,8 +116,8 @@
             </li>
           </ul>
           <div class="button">
-            <button type="submit" class="btn">
-              Join Best Web development Bootcamp 2021
+            <button type="submit" class="btn" id="button">
+              REGISTER
             </button>
           </div>
         </div>
@@ -119,12 +125,12 @@
       <section id="featured" class="feature-section">
         <div id="feature-wrapper">
           <div class="program-heading mg-3">
-            <h2 class="md-heading text-dark">Featured speakers</h2>
+            <h2 class="md-heading text-dark low">Featured speakers</h2>
             <div class="underline"></div>
           </div>
         </div>
       </section>
-      <section class="partnership">
+      <section class="partnership" id="partnership">
         <div class="partner-wrapper">
           <div class="program-heading">
             <h2 class="md-heading">Partner</h2>
@@ -141,24 +147,25 @@
           </ul>
         </div>
       </section>
-      <section class="footer">
+      <section class="footer" id="footer">
         <div class="main-footer">
           Made with love ❤ by Juliana, copyright &copy; 2021
         </div>
         <ul class="footer-list">
           <li class="footer-item">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="color-font"><i class="fab fa-facebook-f"></i></a>
           </li>
           <li class="footer-item">
-            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="color-font"><i class="fab fa-twitter"></i></a>
           </li>
           <li class="footer-item">
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="color-font"><i class="fab fa-linkedin-in"></i></a>
           </li>
         </ul>
       </section>
     </main>
     <script src="main.js"></script>
     <script src="menu.js"></script>
+    <script src="form.js"></script>
   </body>
 </html>

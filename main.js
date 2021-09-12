@@ -29,37 +29,37 @@ const speaker1 = new Speakers(
   'images/speaker-1.png',
   'Quincy Ememandu',
   'Proffesional Internet Marketer and Digital marketer',
-  'Quincy has been in digital market industry for 10 years and has been invited to speak on conferences all over the world.'
+  'Quincy has been in digital market industry for 10 years and has been invited to speak on conferences all over the world.',
 );
 const speaker2 = new Speakers(
   'images/speaker-2.png',
   'Teddy Livingstone',
   'Professional Ruby on rail developer',
-  'Teddy has been in software industry for 7 years and has been invited to speak on conferences all over the world.'
+  'Teddy has been in software industry for 7 years and has been invited to speak on conferences all over the world.',
 );
 const speaker3 = new Speakers(
   'images/speaker-3.png',
   'Freedom Dozie',
   'Professional Business manager and retired software developer',
-  'Freedom has been in software industry for 7 years and has been invited to speak on conferences all over the world.'
+  'Freedom has been in software industry for 7 years and has been invited to speak on conferences all over the world.',
 );
 const speaker4 = new Speakers(
   'images/speaker-4.png',
   'Emily Suarez',
   'Professional Community Manager',
-  'Emily has been a community manager for 7 years and has been invited to speak on conferences all over the world.'
+  'Emily has been a community manager for 7 years and has been invited to speak on conferences all over the world.',
 );
 const speaker5 = new Speakers(
   'images/speaker-5.png',
   'Mary Ruben',
   'Professional JavaScript and React developer',
-  'has been a developer for 7 years and has been invited to speak on conferences all over the world.'
+  'has been a developer for 7 years and has been invited to speak on conferences all over the world.',
 );
 const speaker6 = new Speakers(
   'images/speaker-6.png',
   'Julie May',
   'Professional Full stack Software Developer',
-  'has been a developer for 7 years and has been invited to speak on conferences all over the world.'
+  'has been a developer for 7 years and has been invited to speak on conferences all over the world.',
 );
 
 const speakerArr = [speaker1, speaker2, speaker3, speaker4, speaker5, speaker6];

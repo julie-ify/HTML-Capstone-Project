@@ -679,7 +679,7 @@ a {
     grid-template-columns: 1fr 1fr;
   }
 
-  .add-more {
+  /* .add-more {
     display: none;
-  }
+  } */
 }

@@ -64,6 +64,7 @@ const speaker6 = new Speakers(
 
 const speakerArr = [speaker1, speaker2, speaker3, speaker4, speaker5, speaker6];
 
+speakerList.innerHTML = '';
 const fullSpeaker = () => {
   speakerList.innerHTML = '';
   for (let i = 0; i < speakerArr.length; i += 1) {
@@ -124,9 +125,11 @@ const renderSpeaker = () => {
     speakerList.appendChild(list);
   }
   speakerList.appendChild(addMore);
+  
 };
 
 const renderRestSpeaker = () => {
+ 
   addMore.addEventListener('click', () => {
     const secondHalfSpeaker = speakerArr.slice(3);
     for (let i = 0; i < secondHalfSpeaker.length; i += 1) {
@@ -168,18 +171,15 @@ const renderRestSpeaker = () => {
   });
 };
 
-window.addEventListener('load', () => {
-  renderSpeaker();
-  renderRestSpeaker();
-});
-
 const smallDevice = window.matchMedia('(min-width: 900px)');
 
 function handleDeviceChange(e) {
   if (e.matches) {
     fullSpeaker();
   } else {
+    speakerList.innerHTML = '';
     renderSpeaker();
+    renderRestSpeaker()
   }
 }
 

@@ -88,12 +88,16 @@ a {
 }
 
 .side-menu-list a {
-  color: #555;
+  color: var(--light-color);
   font-size: 25px;
 }
 
 .footer-list a {
   color: var(--primary-color);
+}
+
+.navbar a {
+  color: var(--light-color);
 }
 
 .footer-list a:hover {
@@ -130,7 +134,7 @@ a {
   width: 100%;
   position: fixed;
   height: 50px;
-  background-color: var(--white-color);
+  background-color: var(--dark-color);
 }
 
 .nav-desktop {
@@ -170,7 +174,7 @@ a {
   height: 4px;
   width: 35px;
   margin-bottom: 5px;
-  background-color: var(--dark-color);
+  background-color: var(--light-color);
 }
 
 .current {
@@ -189,18 +193,20 @@ a {
   height: 100%;
   width: 100%;
   z-index: 50;
-  background-color: rgba(255, 255, 255, 0.99);
+  background-color: var(--dark-color);
+  opacity: 0.98;
 }
 
 #close {
   font-size: 50px;
   margin-right: 2rem;
   cursor: pointer;
-  color: var(--dark-color);
+  color: var(--light-color);
 }
 
 #close:hover {
-  color: var(--light-color);
+  color: var(--primary-color);
+  transition: all 0.5s ease-out;
 }
 
 .side-menu-list {
@@ -217,6 +223,7 @@ a {
 
 .side-menu-list a:hover {
   color: var(--primary-color);
+  transition: all 0.5s ease-out;
 }
 
 /* Header content */

@@ -5,6 +5,7 @@
 > This project is about my best web development bootcamp that focuses on web development startups and training on becoming successful software developer.
 
 ![screenshot](./images/screenshot.png)
+![screenshot](./images/screenshot3.png)
 
 This is a two page website. The home page has the main program section where the different programs offered are displayed and also different distinguished speakers invited to speak in the bootcamp. The about page has information about our bootcamp and partnerships.
 

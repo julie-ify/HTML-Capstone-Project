@@ -87,12 +87,13 @@ a {
   text-decoration: underline;
 }
 
-.footer-list a {
-  color: var(--primary-color);
+.side-menu-list a {
+  color: #555;
+  font-size: 25px;
 }
 
-.side-menu-list a {
-  font-size: 40px;
+.footer-list a {
+  color: var(--primary-color);
 }
 
 .footer-list a:hover {
@@ -216,11 +217,6 @@ a {
 
 .side-menu-list a:hover {
   color: var(--primary-color);
-}
-
-.side-menu-list a{
-  color: #555;
-  font-size: 25px;
 }
 
 /* Header content */

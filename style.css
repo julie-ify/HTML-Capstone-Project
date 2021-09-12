@@ -432,7 +432,6 @@ a {
 .speaker-item {
   display: flex;
   align-items: center;
-  justify-content: center;
   row-gap: 3rem;
   column-gap: 2rem;
   margin-bottom: 2rem;

@@ -173,19 +173,16 @@ window.addEventListener('load', () => {
   renderRestSpeaker();
 });
 
-
-const smallDevice = window.matchMedia("(min-width: 900px)");
-
-smallDevice.addListener(handleDeviceChange);
+const smallDevice = window.matchMedia('(min-width: 900px)');
 
 function handleDeviceChange(e) {
   if (e.matches) {
-    fullSpeaker()
-  }
-  else {
-    renderSpeaker()
+    fullSpeaker();
+  } else {
+    renderSpeaker();
   }
 }
 
+smallDevice.addListener(handleDeviceChange);
 // Run it initially
 handleDeviceChange(smallDevice);

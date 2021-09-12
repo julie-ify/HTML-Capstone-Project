@@ -1,6 +1,7 @@
 const openMenu = document.getElementById('menu');
 const closeMenu = document.getElementById('close');
 const Menu = document.getElementById('side-menu');
+const arrow = document.getElementById('arrow');
 
 let sideMenu = false;
 
@@ -38,8 +39,6 @@ navLIstArr.forEach((list) => {
 });
 
 // Arrow button
-
-const arrow = document.getElementById('arrow');
 const arrowIcon = document.getElementById('down');
 arrowIcon.style.display = 'flex';
 arrowIcon.style.alignItems = 'center';

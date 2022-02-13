@@ -5,13 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Best Web Development Bootcamp</title>
+    <link rel="icon" href="./images/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
       integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -32,7 +41,7 @@
           </div>
         </nav>
         <section class="sub-header">
-          <div class="header-content">
+          <div class="header-content" data-aos="fade-down">
             <p class="small-paragraph">"Hello! Sharing World"</p>
             <h1 class="bg-heading">BEST WEB DEVELOPMENT BOOTCAMP 2021</h1>
             <div class="sub-content">
@@ -59,7 +68,9 @@
           <li class="nav-list-item current"><a href="index.html">Home</a></li>
           <li class="nav-list-item"><a href="about.html">About</a></li>
           <li class="nav-list-item"><a href="#program">Program</a></li>
-          <li class="nav-list-item"><a href="#featured">Featured Speakers</a></li>
+          <li class="nav-list-item">
+            <a href="#featured">Featured Speakers</a>
+          </li>
           <li class="nav-list-item"><a href="#partnership">Partnership</a></li>
           <li class="nav-list-item"><a href="#footer">Footer</a></li>
         </ul>
@@ -74,7 +85,7 @@
             <div class="underline"></div>
           </div>
           <ul class="program-list">
-            <li class="program-item">
+            <li class="program-item" data-aos="fade-left">
               <i class="fas fa-book-open"></i>
               <h3 class="topic">Lecture</h3>
               <p class="lead">
@@ -82,15 +93,16 @@
                 you to know about the basics of web development.
               </p>
             </li>
-            <li class="program-item">
+            <li class="program-item" data-aos="fade-right">
               <i class="fas fa-chalkboard-teacher"></i>
               <h3 class="topic">Exhibition</h3>
               <p class="lead">
                 You will get to see several exhibition of talents from our
-                students and staffs with many exciting events and get to have fun and more. 
+                students and staffs with many exciting events and get to have
+                fun and more.
               </p>
             </li>
-            <li class="program-item">
+            <li class="program-item" data-aos="fade-left">
               <i class="fas fa-mail-bulk"></i>
               <h3 class="topic">Forum</h3>
               <p class="lead">
@@ -98,15 +110,15 @@
                 and you will get to know people across the globe.
               </p>
             </li>
-            <li class="program-item">
+            <li class="program-item" data-aos="fade-right">
               <i class="fab fa-wpforms"></i>
               <h3 class="topic">Workshop</h3>
               <p class="lead">
-                Hello there, Our workshop is designed to get you acquainted with our program
-                and the tools we use daily. 
+                Hello there, Our workshop is designed to get you acquainted with
+                our program and the tools we use daily.
               </p>
             </li>
-            <li class="program-item">
+            <li class="program-item" data-aos="fade-left">
               <i class="fas fa-mail-bulk"></i>
               <h3 class="topic">Ignite</h3>
               <p class="lead">
@@ -116,14 +128,12 @@
             </li>
           </ul>
           <div class="button">
-            <button type="submit" class="btn" id="button">
-              REGISTER
-            </button>
+            <button type="submit" class="btn" id="button">REGISTER</button>
           </div>
         </div>
       </section>
       <section id="featured" class="feature-section">
-        <div id="feature-wrapper">
+        <div id="feature-wrapper" data-aos="zoom-in">
           <div class="program-heading mg-3">
             <h2 class="md-heading text-dark low">Featured speakers</h2>
             <div class="underline"></div>
@@ -159,7 +169,9 @@
             <a href="#" class="color-font"><i class="fab fa-twitter"></i></a>
           </li>
           <li class="footer-item">
-            <a href="#" class="color-font"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="color-font"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
           </li>
         </ul>
       </section>
@@ -167,5 +179,18 @@
     <script src="main.js"></script>
     <script src="menu.js"></script>
     <script src="form.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      AOS.init({
+        delay: 200,
+        duration: 1200,
+        once: false,
+      });
+    </script>
   </body>
 </html>

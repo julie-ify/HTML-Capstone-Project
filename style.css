@@ -6,6 +6,10 @@
   src: url('Cocogoose_trial.ttf');
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Lato', Cocogoose, sans-serif;
   line-height: 1.5;
@@ -199,11 +203,11 @@ a {
   margin-right: 2rem;
   cursor: pointer;
   color: var(--light-color);
+  transition: all 0.5s ease-out;
 }
 
 #close:hover {
   color: var(--primary-color);
-  transition: all 0.5s ease-out;
 }
 
 .side-menu-list {
@@ -686,8 +690,4 @@ a {
   .past-grid {
     grid-template-columns: 1fr 1fr;
   }
-
-  /* .add-more {
-    display: none;
-  } */
 }

@@ -111,7 +111,6 @@ a {
 /* Header style */
 
 .header-section {
-  height: 100%;
   width: 100%;
   background-image: url(images/web-bg1-img.jpg);
   background-position: center;
@@ -122,8 +121,6 @@ a {
 .header-wrapper {
   width: 100%;
   height: 100%;
-  top: 0;
-  left: 0;
   background-color: rgba(0, 0, 0, 0.8);
   display: flex;
   flex-direction: column;
@@ -240,6 +237,7 @@ a {
   gap: 1rem;
   max-width: 800px;
   margin: 0 auto;
+  height: 100%;
 }
 
 .about-header-content {
@@ -314,8 +312,6 @@ a {
   color: #fff;
   height: 100%;
   width: 100%;
-  top: 0;
-  left: 0;
   background-color: rgba(0, 0, 0, 0.8);
   display: grid;
   grid-template-columns: 1fr;
